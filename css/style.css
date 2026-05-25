@@ -30,4 +30,28 @@ footer {
   padding: 15px;
   background: #111;
   color: white;
+.diagram-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.diagram-grid img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.diagram-grid figure {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.diagram-grid figcaption {
+  text-align: center;
+  font-size: 0.85em;
+  color: #555;
+  margin-top: 8px;
+}
 }
